@@ -1,0 +1,9 @@
+Toplam ornek (unsure=1 haric): 8434 (egitim=9730, dogrulama=843)
+Alfabe (35): 123456789abcdefghijklmnopqrstuvwxyz
+
+=== DOGRULUK ORANLARI ===
+Son epoch egitim (train) kelime dogrulugu : %97.87
+En iyi dogrulama (val) kelime dogrulugu   : %90.75  (epoch 73/90)
+Son epoch dogrulama (val) karakter hata orani (CER): %2.10  (yani karakterlerin ~%97.90'i dogru okunuyor)
+
+Onceki modelden DAHA IYI: +6.05 puan (onceki: %84.70)
