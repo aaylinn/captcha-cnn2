@@ -4,7 +4,7 @@ LUCAMODEL - TEK GORSEL ICIN TAHMIN
 =====================================
 Bu klasordeki egitilmis modeli kullanarak tek bir CAPTCHA gorseli icin
 metin tahmini yapar. Bagimsiz calisir - sadece bu klasordeki dosyalara
-(lucamodel.pt, alfabe.json, captcha_model.py, onisleme.py) ihtiyac duyar.
+(model_en_iyi.pt, alfabe.json, captcha_model.py, onisleme.py) ihtiyac duyar.
 
 Kurulum:
     pip install -r requirements.txt
@@ -23,7 +23,7 @@ import onisleme as oi
 from captcha_model import model_yukle, cihaz_sec
 
 KLASOR = os.path.dirname(os.path.abspath(__file__))
-MODEL_YOLU = os.path.join(KLASOR, "lucamodel.pt")
+MODEL_YOLU = os.path.join(KLASOR, "model_en_iyi.pt")
 ALFABE_YOLU = os.path.join(KLASOR, "alfabe.json")
 
 

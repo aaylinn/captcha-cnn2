@@ -1,9 +1,7 @@
-# lucamodel — Noktalı/Çizgili CAPTCHA Metin Okuma Modeli
+# captcha-cnn2 — Noktalı/Çizgili CAPTCHA Metin Okuma Modeli
 
-Bu klasör, **luca** adıyla ayrılmış, bağımsız bir CAPTCHA metin okuma
-modelidir. Repodaki diğer modellerle karışmaması için ayrı bir klasörde
-tutulur — kendi kod kopyalarını, eğitilmiş ağırlıklarını ve sonuç
-raporlarını içerir.
+Bağımsız bir CAPTCHA metin okuma modeli — kendi kod kopyalarını, eğitilmiş
+ağırlıklarını ve sonuç raporlarını içerir.
 
 ## Ne yapıyor
 
@@ -62,7 +60,7 @@ Karakter sayısı SABİT olmadığı için (gradyanlı/farklı bir projedeki
 
 | Dosya | Açıklama |
 |---|---|
-| `lucamodel.pt` | Eğitilmiş model ağırlıkları (en iyi checkpoint) |
+| `model_en_iyi.pt` | Eğitilmiş model ağırlıkları (en iyi checkpoint) |
 | `alfabe.json` | Kullanılan alfabe (35 karakter) + ön-işleme ayarları |
 | `captcha_model.py` | Model mimarisi (CRNN) + kaydet/yükle yardımcıları |
 | `captcha_egit.py` | Eğitim betiği (veri okuma, döngü, rapor üretimi) |
@@ -81,6 +79,11 @@ göreli yol kullanıyor. Bu klasördeki kod kopyaları referans/dokümantasyon
 amaçlıdır — çalıştırmak için kendi veri klasör yapınızı buna göre ayarlamanız
 gerekir (ham CAPTCHA görselleri boyut/gizlilik nedeniyle bu repoya dahil
 edilmedi).
+
+## Veri Seti
+
+Eğitim/doğrulama görselleri Roboflow'da barındırılıyor:
+[Roboflow — captcha veri seti](https://app.roboflow.com/aylins-workspace-i3lbm/captcha-7bol7/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
 
 ## Kullanım (tahmin için)
 
