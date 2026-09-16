@@ -1,4 +1,4 @@
-# captcha-cnn2 — Noktalı/Çizgili CAPTCHA Metin Okuma Modeli
+# captcha-crnn2 — Noktalı/Çizgili CAPTCHA Metin Okuma Modeli
 
 Bağımsız bir CAPTCHA metin okuma modeli — kendi kod kopyalarını, eğitilmiş
 ağırlıklarını ve sonuç raporlarını içerir.
@@ -81,6 +81,7 @@ gerekir (ham CAPTCHA görselleri boyut/gizlilik nedeniyle bu repoya dahil
 edilmedi).
 
 ## Veri Seti
+<img width="330" height="120" alt="screenshot_2" src="https://github.com/user-attachments/assets/157660e4-57c1-4172-bc12-8c60576bcced" />
 
 Eğitim/doğrulama görselleri Roboflow'da barındırılıyor:
 [Roboflow — captcha veri seti](https://app.roboflow.com/aylins-workspace-i3lbm/captcha-7bol7/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
