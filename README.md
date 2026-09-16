@@ -71,6 +71,7 @@ Karakter sayısı SABİT olmadığı için (gradyanlı/farklı bir projedeki
 | `egitim_raporu.txt` | Son eğitimin özet sonucu |
 | `egitim_gecmisi.png` | Kayıp/doğruluk eğrileri |
 | `val_hatalari.txt` | Doğrulama setinde hâlâ yanlış tahmin edilen örnekler |
+| `veri_etiketleri.csv` | Tüm eğitim verisinin dosya adı ↔ doğru etiket eşlemesi (8434 satır) — Roboflow'a yüklenen görsellerin yedek referansı |
 | `araclar/supheli_kontrol.py` | Şüpheli/düşük-güvenli etiketleri tek tek gözden geçirme arayüzü (Flask) |
 | `araclar/yeni_veri_etiketle.py` | Model yardımlı, güven-eşikli otomatik+manuel etiketleme arayüzü (Flask) |
 
