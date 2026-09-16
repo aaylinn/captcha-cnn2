@@ -1,9 +1,3 @@
-# lucamodel — Noktalı/Çizgili CAPTCHA Metin Okuma Modeli
-
-Bu klasör, **luca** adıyla ayrılmış, bağımsız bir CAPTCHA metin okuma
-modelidir. Repodaki diğer modellerle karışmaması için ayrı bir klasörde
-tutulur — kendi kod kopyalarını, eğitilmiş ağırlıklarını ve sonuç
-raporlarını içerir.
 
 ## Ne yapıyor
 
