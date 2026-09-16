@@ -82,6 +82,7 @@ edilmedi).
 
 ## Veri Seti
 <img width="330" height="120" alt="screenshot_2" src="https://github.com/user-attachments/assets/157660e4-57c1-4172-bc12-8c60576bcced" />
+<img width="330" height="120" alt="screenshot_9" src="https://github.com/user-attachments/assets/1c4e17e8-c1ab-4b80-86b6-de617c6d93b8" />
 
 Eğitim/doğrulama görselleri Roboflow'da barındırılıyor:
 [Roboflow — captcha veri seti](https://app.roboflow.com/aylins-workspace-i3lbm/captcha-7bol7/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
